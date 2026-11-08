@@ -1,0 +1,3 @@
+{ "name": "arrowfish-desktop", "version": "1.0.0", "private": true, "type": "module", "license": "MIT",
+  "description": "Arrowfish Chrome extension - Stockfish best-move arrows for Lichess and Chess.com",
+  "scripts": { "setup": "node scripts/setup.mjs", "zip": "node scripts/setup.mjs && zip -r arrowfish-desktop.zip manifest.json *.js *.html icons engine" } }
